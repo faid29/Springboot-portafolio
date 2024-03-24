@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class GestorBaseDatos {
-    private static final String URL_BASE_DATOS = "jdbc:mysql://rubensarco.ed.urltemporal.com:2083/cpsess4823461644/3rdparty/phpMyAdmin/index.php?route=/database/structure&db=bksmfoby_porta?useSSL=false&serverTimezone=UTC";
-    private static final String USUARIO = "bksmfoby";
-    private static final String CONTRASEÑA = "qsN66FN8l#[Ms0";
+    private static final String URL_BASE_DATOS = "jdbc:mysql://u20kyqkzdwdfgxk5:nn54qyw8QcGkgUE6g1r@bcm2qz5qslmt3l1njrya-mysql.services.clever-cloud.com:21380/bcm2qz5qslmt3l1njrya?useSSL=false&serverTimezone=UTC";
+    private static final String USUARIO = "u20kyqkzdwdfgxk5";
+    private static final String CONTRASEÑA = "nn54qyw8QcGkgUE6g1r";
 
     public static Connection obtenerConexion() throws SQLException {
         Connection conexion = null;
